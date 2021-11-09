@@ -4,6 +4,6 @@
 $host     = "localhost";
 $uname    = "root";
 $pass     = "";
-$database = "perpusbrahma";
+$database = "perpustakaan.sql";
 
 $connect = mysqli_connect($host, $uname, $pass, $database) OR die(mysql_error());
