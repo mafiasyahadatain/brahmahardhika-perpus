@@ -1,0 +1,37 @@
+*{
+margin:0px auto; /*supaya layer otomatis mengisi dan ke tengah*/
+}
+
+#wrapper{
+width:100%;
+position:relative; /*posisi disarankan*/
+text-align:center;
+color:#fff000;
+background-size:100%;
+}
+ 
+#header{
+width:100%; /*supaya header memenuhi layar*/
+z-index:1000; /*z-index dgn nilai besar berfungsi supaya header selalu tampil didepan*/
+position:fixed;
+height:60px; 
+background:#252525;
+}
+#header a.title{
+color:#fff000; 
+font-weight:bold; 
+text-decoration:none; 
+font-size:30px; 
+line-height:60px; /*supaya baris judul terlihat rapi, berikan nilai line-height yg sama dengan height #header.*/
+padding:0px 20px; /*padding 20px di kiri dan kanan saja*/
+}
+ 
+#content{
+position:relative; /*posisi disarankan*/
+margin:0px 20px;
+}
+ 
+#footer{
+position:relative; /*posisi disarankan*/
+height:40px;
+}
